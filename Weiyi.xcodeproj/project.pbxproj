@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C76CA5705043FFB769337A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A32AF2A7C6E42A7BF85308D /* libPods.a */; };
+		7A145AA519E50EAF002331FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A145AA419E50EAF002331FD /* AppDelegate.swift */; };
+		7A145AA819E50EAF002331FD /* Weiyi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A145AA619E50EAF002331FD /* Weiyi.xcdatamodeld */; };
+		7A145AAA19E50EAF002331FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A145AA919E50EAF002331FD /* ViewController.swift */; };
+		7A145AAD19E50EAF002331FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A145AAB19E50EAF002331FD /* Main.storyboard */; };
+		7A145AAF19E50EAF002331FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A145AAE19E50EAF002331FD /* Images.xcassets */; };
+		7A145AB219E50EAF002331FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A145AB019E50EAF002331FD /* LaunchScreen.xib */; };
+		7A145ABE19E50EAF002331FD /* WeiyiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A145ABD19E50EAF002331FD /* WeiyiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A145AB819E50EAF002331FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A145A9719E50EAF002331FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A145A9E19E50EAF002331FD;
+			remoteInfo = Weiyi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A32AF2A7C6E42A7BF85308D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A145A9F19E50EAF002331FD /* Weiyi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weiyi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A145AA319E50EAF002331FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A145AA419E50EAF002331FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A145AA719E50EAF002331FD /* Weiyi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weiyi.xcdatamodel; sourceTree = "<group>"; };
+		7A145AA919E50EAF002331FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A145AAC19E50EAF002331FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A145AAE19E50EAF002331FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A145AB119E50EAF002331FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A145AB719E50EAF002331FD /* WeiyiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiyiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A145ABC19E50EAF002331FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A145ABD19E50EAF002331FD /* WeiyiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiyiTests.swift; sourceTree = "<group>"; };
+		7A145AC819E50FB4002331FD /* Weiyi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weiyi-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7DEC346FAD147A484CAB180 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A145A9C19E50EAF002331FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C76CA5705043FFB769337A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A145AB419E50EAF002331FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A145A9619E50EAF002331FD = {
+			isa = PBXGroup;
+			children = (
+				7A145AA119E50EAF002331FD /* Weiyi */,
+				7A145ABA19E50EAF002331FD /* WeiyiTests */,
+				7A145AA019E50EAF002331FD /* Products */,
+				D7DEC346FAD147A484CAB180 /* Pods.xcconfig */,
+				97BA1DF9EC9C44DE85FA0D32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A145AA019E50EAF002331FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A145A9F19E50EAF002331FD /* Weiyi.app */,
+				7A145AB719E50EAF002331FD /* WeiyiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A145AA119E50EAF002331FD /* Weiyi */ = {
+			isa = PBXGroup;
+			children = (
+				7A145AA419E50EAF002331FD /* AppDelegate.swift */,
+				7A145AA919E50EAF002331FD /* ViewController.swift */,
+				7A145AAB19E50EAF002331FD /* Main.storyboard */,
+				7A145AAE19E50EAF002331FD /* Images.xcassets */,
+				7A145AB019E50EAF002331FD /* LaunchScreen.xib */,
+				7A145AA619E50EAF002331FD /* Weiyi.xcdatamodeld */,
+				7A145AA219E50EAF002331FD /* Supporting Files */,
+				7A145AC819E50FB4002331FD /* Weiyi-Bridging-Header.h */,
+			);
+			path = Weiyi;
+			sourceTree = "<group>";
+		};
+		7A145AA219E50EAF002331FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A145AA319E50EAF002331FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A145ABA19E50EAF002331FD /* WeiyiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A145ABD19E50EAF002331FD /* WeiyiTests.swift */,
+				7A145ABB19E50EAF002331FD /* Supporting Files */,
+			);
+			path = WeiyiTests;
+			sourceTree = "<group>";
+		};
+		7A145ABB19E50EAF002331FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A145ABC19E50EAF002331FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97BA1DF9EC9C44DE85FA0D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A32AF2A7C6E42A7BF85308D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A145A9E19E50EAF002331FD /* Weiyi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A145AC119E50EAF002331FD /* Build configuration list for PBXNativeTarget "Weiyi" */;
+			buildPhases = (
+				07EB7E3BBC9343AE80468BAC /* Check Pods Manifest.lock */,
+				7A145A9B19E50EAF002331FD /* Sources */,
+				7A145A9C19E50EAF002331FD /* Frameworks */,
+				7A145A9D19E50EAF002331FD /* Resources */,
+				B275F02261D9433AA1626CF1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weiyi;
+			productName = Weiyi;
+			productReference = 7A145A9F19E50EAF002331FD /* Weiyi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A145AB619E50EAF002331FD /* WeiyiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A145AC419E50EAF002331FD /* Build configuration list for PBXNativeTarget "WeiyiTests" */;
+			buildPhases = (
+				7A145AB319E50EAF002331FD /* Sources */,
+				7A145AB419E50EAF002331FD /* Frameworks */,
+				7A145AB519E50EAF002331FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A145AB919E50EAF002331FD /* PBXTargetDependency */,
+			);
+			name = WeiyiTests;
+			productName = WeiyiTests;
+			productReference = 7A145AB719E50EAF002331FD /* WeiyiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A145A9719E50EAF002331FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = chentoo;
+				TargetAttributes = {
+					7A145A9E19E50EAF002331FD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7A145AB619E50EAF002331FD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7A145A9E19E50EAF002331FD;
+					};
+				};
+			};
+			buildConfigurationList = 7A145A9A19E50EAF002331FD /* Build configuration list for PBXProject "Weiyi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A145A9619E50EAF002331FD;
+			productRefGroup = 7A145AA019E50EAF002331FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A145A9E19E50EAF002331FD /* Weiyi */,
+				7A145AB619E50EAF002331FD /* WeiyiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A145A9D19E50EAF002331FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A145AAD19E50EAF002331FD /* Main.storyboard in Resources */,
+				7A145AB219E50EAF002331FD /* LaunchScreen.xib in Resources */,
+				7A145AAF19E50EAF002331FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A145AB519E50EAF002331FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07EB7E3BBC9343AE80468BAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B275F02261D9433AA1626CF1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A145A9B19E50EAF002331FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A145AAA19E50EAF002331FD /* ViewController.swift in Sources */,
+				7A145AA519E50EAF002331FD /* AppDelegate.swift in Sources */,
+				7A145AA819E50EAF002331FD /* Weiyi.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A145AB319E50EAF002331FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A145ABE19E50EAF002331FD /* WeiyiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A145AB919E50EAF002331FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A145A9E19E50EAF002331FD /* Weiyi */;
+			targetProxy = 7A145AB819E50EAF002331FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A145AAB19E50EAF002331FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A145AAC19E50EAF002331FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A145AB019E50EAF002331FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A145AB119E50EAF002331FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A145ABF19E50EAF002331FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A145AC019E50EAF002331FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A145AC219E50EAF002331FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DEC346FAD147A484CAB180 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Weiyi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Weiyi/Weiyi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A145AC319E50EAF002331FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DEC346FAD147A484CAB180 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Weiyi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Weiyi/Weiyi-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7A145AC519E50EAF002331FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeiyiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weiyi.app/Weiyi";
+			};
+			name = Debug;
+		};
+		7A145AC619E50EAF002331FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WeiyiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weiyi.app/Weiyi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A145A9A19E50EAF002331FD /* Build configuration list for PBXProject "Weiyi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A145ABF19E50EAF002331FD /* Debug */,
+				7A145AC019E50EAF002331FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A145AC119E50EAF002331FD /* Build configuration list for PBXNativeTarget "Weiyi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A145AC219E50EAF002331FD /* Debug */,
+				7A145AC319E50EAF002331FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A145AC419E50EAF002331FD /* Build configuration list for PBXNativeTarget "WeiyiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A145AC519E50EAF002331FD /* Debug */,
+				7A145AC619E50EAF002331FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A145AA619E50EAF002331FD /* Weiyi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A145AA719E50EAF002331FD /* Weiyi.xcdatamodel */,
+			);
+			currentVersion = 7A145AA719E50EAF002331FD /* Weiyi.xcdatamodel */;
+			path = Weiyi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A145A9719E50EAF002331FD /* Project object */;
+}

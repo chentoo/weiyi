@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+pod 'AVOSCloud'
+pod 'AVOSCloudSNS'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'MagicalRecord'
+pod 'JDStatusBarNotification'
+pod 'UMengAnalytics'
